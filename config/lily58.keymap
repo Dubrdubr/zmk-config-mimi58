@@ -49,7 +49,7 @@
         };
 
         tochka {
-            bindings = <&kp KP_NUMBER_1>;
+            bindings = <&kp KP_DOT>;
             key-positions = <32 33>;
         };
 
@@ -66,6 +66,16 @@
         qeustion {
             bindings = <&kp KP_NUMBER_3>;
             key-positions = <16 15>;
+        };
+
+        swap-ru {
+            bindings = <&kp KP_NUMBER_4>;
+            key-positions = <43 54>;
+        };
+
+        swap_en {
+            bindings = <&kp KP_NUMBER_5>;
+            key-positions = <42 53>;
         };
     };
 
